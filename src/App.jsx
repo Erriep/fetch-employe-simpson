@@ -4,7 +4,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 function App() {
-  const [simpson, setSimpson] = useState([]);
+  const [simpson, setSimpson] = React.useState([]);
 
   const getSimpson = () => {
     // Send the request
